@@ -1,0 +1,31 @@
+ion-item{
+  --background: transparent;
+  --color: #fff;
+}
+ion-button{
+  --background: #062f77;
+}
+ion-content.background{
+  --background: url(../../assets/images/background.png)0 0/100% 100% no-repeat;
+}
+.form{
+  padding-top: 10%;
+}
+.label{
+  font-size: 40px;
+  text-align: center;
+  color: #062f77;
+  border-color: #062f77;
+}
+
+.centre{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+:host(.item-interactive.ion-valid) {
+  --highlight-background: #062f77;
+}
